@@ -1,0 +1,42 @@
+.for{
+    &__title{
+        margin-bottom: 57px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 900;
+    }
+    &__inner{
+        justify-content: space-between;
+        margin-bottom: 86px;
+    }
+    &__item{
+        padding: 20px 14px;
+        max-width: 270px;
+        width: 100%;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 4px 57px rgba(81, 86, 87, 0.1);
+        &+&{
+            margin-left: 30px;
+        }
+    }
+    &__pic{
+        margin: 0 auto 12px;
+        width: 121px;
+        height: 121px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__item-title{
+        margin-bottom: 7px;
+        font-size: 22px;
+        line-height: 27px;
+        font-weight: 700;
+    }
+    &__text{        
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: white;
+    background-image: url('../images/bg1.png'), url('../images/bg2.png'), url('../images/bg3s.png');
+    background-size: cover;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    counter-reset: what;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-raspberry{
+    color: $raspberry;
+}
+
+.text-lightblue{
+    color: $lightblue;
+}

@@ -1,0 +1,15 @@
+.header {
+    &__inner {
+        justify-content: space-between;
+        align-items: center;
+        min-height: 68px;
+    }
+
+    &__item {
+        display: inline-block;
+        color: white;
+        &+& {
+            margin-left: 59px;
+        }
+    }
+}
