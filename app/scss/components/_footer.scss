@@ -1,0 +1,25 @@
+.footer{
+    &__inner{
+        justify-content: space-between;
+        align-items: center;
+        min-height: 120px;
+    }
+    &__copy{
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+    }
+    &__item{
+        display: inline-block;
+        &+&{
+            margin-left: 69px;
+        }
+    }
+    &__link{
+        width: 19px;
+        height: 19px;       
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

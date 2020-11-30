@@ -17,10 +17,7 @@
         max-width: 436px;
         font-size: 65px;
         line-height: 80px;
-        font-weight: 900;
-        background: linear-gradient(254.5deg, #EE1E52 16.91%, #11C5D2 91.78%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        font-weight: 900;        
     }
 
     &__text {
@@ -29,17 +26,6 @@
         line-height: 34px;
         font-weight: 700;
         color: #323232;
-    }
-
-    &__link {
-        padding: 21px 61px 21px 54px;
-        background-color: $raspberry;
-        box-shadow: 0px 4px 17px rgba(238, 30, 82, 0.44);
-        border-radius: 12px;
-        text-transform: uppercase;
-        color: white;
-        font-size: 18px;
-        font-weight: 500;
     }
 
     &__img{

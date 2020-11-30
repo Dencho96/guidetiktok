@@ -1,0 +1,61 @@
+.guide {
+    &__title {
+        margin-bottom: 64px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    &__pic {
+        margin: 0 auto 50px;
+        width: 207px;
+        height: 312px;
+        background-image: url('../images/guide-pic.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__inner {
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto 124px;
+        max-width: 492px;
+        width: 100%;
+    }
+
+    &__btn,
+    &__old-price {
+        font-weight: 500;
+    }
+
+    &__btn {
+        margin-right: 39px;
+    }
+
+    &__price {
+        margin-right: 32px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+    }
+
+    &__old-price {
+        position: relative;
+        font-size: 18px;
+        line-height: 22px;
+        color: #636363;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 9px;
+            left: 0;
+            width: 77px;
+            border: 1px solid $raspberry;
+            transform: rotate(15deg);
+        }
+    }
+
+}

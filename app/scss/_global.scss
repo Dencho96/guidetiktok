@@ -21,7 +21,7 @@ li {
     list-style-type: none;
 }
 
-p{
+p {
     padding: 0;
     margin: 0;
 }
@@ -31,9 +31,9 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     background-color: white;
-    background-image: url('../images/bg1.png'), url('../images/bg2.png'), url('../images/bg3s.png');
-    background-size: cover;
-    background-position: top, center;
+    background-image: url('../images/bg1.png'), url('../images/bg2.png'), url('../images/bg3.png');
+    background-size: contain, cover, contain;
+    background-position: top, center, bottom;
     background-repeat: no-repeat;
     counter-reset: what;
 }
@@ -49,10 +49,29 @@ body {
     display: flex;
 }
 
-.text-raspberry{
+.text-raspberry {
     color: $raspberry;
 }
 
-.text-lightblue{
+.text-lightblue {
     color: $lightblue;
+}
+
+.text-gradient {
+    background: linear-gradient(254.5deg, #EE1E52 16.91%, #11C5D2 91.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    padding: 21px;
+    min-width: 223px;
+    background-color: $raspberry;
+    box-shadow: 0px 4px 17px rgba(238, 30, 82, 0.44);
+    border-radius: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
 }
