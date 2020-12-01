@@ -9,19 +9,28 @@
     }
 
     &__inner {
-        justify-content: flex-start;
-        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    &__col{
+        max-width: 550px;
+        width: 100%;
+        &+&{
+            margin-left: 15px;
+        }
     }
 
     &__item {
         position: relative;
-        padding: 15px 60px;
-        margin: 0 32px 21px 0;
-        max-width: calc(100% / 2 - 32px);
+        padding: 15px 45px 15px 60px;
         width: 100%;
         border: 1px solid #ECEEEE;
         border-radius: 25px;
         background-color: white;
+
+        &+&{
+            margin-top: 21px;
+        }
 
         &::before {
             content: "?";
@@ -51,7 +60,7 @@
         top: 16px;
         width: 17px;
         height: 17px;
-        background-image: url('../../images/chevron-thin-down.svg');
+        background-image: url('../images/chevron-thin-down.svg');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;

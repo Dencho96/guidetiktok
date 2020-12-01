@@ -14,6 +14,7 @@
     }
 
     &__title {
+        margin-bottom: 10px;
         max-width: 436px;
         font-size: 65px;
         line-height: 80px;
@@ -35,5 +36,6 @@
         height: 504px;
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
     }
 }

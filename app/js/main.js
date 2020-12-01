@@ -1,3 +1,3 @@
 $('.answer__btn').on('click', function() {
-    $('.answer__text').slideToggle();
+    $(this).next('.answer__text').slideToggle();
   });
